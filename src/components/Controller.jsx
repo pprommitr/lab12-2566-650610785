@@ -9,16 +9,16 @@ export default function Controller() {
   return (
     <div className="d-flex justify-content-center gap-2">
       <button className="btn btn-secondary" onClick={setLightTheme}>
-        {lang.button.setLightTheme}
+        {lang.buttons.setLightTheme}
       </button>
       <button className="btn btn-dark" onClick={setDarkTheme}>
-        {lang.button.setDarkTheme}
+        {lang.buttons.setDarkTheme}
       </button>
       <button className="btn btn-primary" onClick={toggleTheme}>
-        {lang.button.toggleTheme}
+        {lang.buttons.toggleTheme}
       </button>
       <button className="btn btn-danger" onClick={toggleLang}>
-        {lang.button.toggleLang}
+        {lang.buttons.toggleLang}
       </button>
     </div>
   );
